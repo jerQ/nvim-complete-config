@@ -1,2 +1,4 @@
 # nvim-complete-config
-Basic but functional config for neovim
+Basic neovim LUA configuration with minimal plugins and settings enabled.
+
+
