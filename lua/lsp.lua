@@ -1,4 +1,3 @@
--- ~/.config/nvim-new/lua/lsp.lua
 vim.lsp.enable({
   "bashls",
   "gopls",
@@ -7,5 +6,7 @@ vim.lsp.enable({
   "ts_ls",
   "rust-analyzer",
   "helm_ls",
+  "markdown_oxide",
+  "clangd",
 })
 vim.diagnostic.config({ virtual_text = true })
