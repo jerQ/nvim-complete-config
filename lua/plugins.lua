@@ -117,3 +117,9 @@ vim.pack.add({
 
 require('miniharp').setup({ show_on_autoload = true })
 
+-- Autopair
+vim.pack.add({
+    { src = "https://github.com/windwp/nvim-autopairs" },
+})
+
+require('nvim-autopairs').setup({ event = "InsertEnter", })
